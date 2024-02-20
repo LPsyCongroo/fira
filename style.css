@@ -5,13 +5,14 @@
   font-family: "Noto Serif", serif;
   font-weight: 300;
   line-height: 1.5em;
-  --black: black;
+  --black: #131313;
   --interactive: #c89748;
   color: white;
 }
 
 body {
   background-color: var(--black);
+  font-size: 16px;
 }
 
 .arabic {
@@ -36,9 +37,30 @@ h4,
 h5,
 h6 {
   font-family: "Inter", sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   line-height: 1.5em;
   width: 100%;
+}
+
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.45rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.3rem;
+}
+h5 {
+  font-size: 1.2rem;
+}
+h6 {
+  font-size: 1rem;
 }
 
 a {
@@ -56,6 +78,7 @@ a:hover {
 
 p {
   max-width: 720px;
+  font-size: 0.875rem;
 }
 
 .text-center {
@@ -120,9 +143,9 @@ p {
 }
 
 .nav-item a {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 300;
   text-decoration: none;
   display: block;
   padding: 24px 12px;
