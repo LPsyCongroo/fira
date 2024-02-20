@@ -197,6 +197,10 @@ section {
   gap: 1em;
 }
 
+section img {
+  max-width: 100%;
+}
+
 /* Media Queries */
 
 /* Mobile Devices - Phones/Tablets */
