@@ -5,7 +5,8 @@
   font-family: "Noto Serif", serif;
   font-weight: 300;
   line-height: 1.5em;
-  --black: #131313;
+  --black: rgb(13, 13, 13);
+  --black-50: rgba(13, 13, 13, 0.5);
   --interactive: #c89748;
   color: white;
 }
@@ -107,6 +108,7 @@ p {
   width: 100%; /* Safari */
   position: sticky;
   top: 0;
+  background-color: var(--black);
 }
 
 /* NAVIGATION */
