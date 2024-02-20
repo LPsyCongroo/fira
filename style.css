@@ -187,7 +187,7 @@ p {
 
 /* SECTIONS */
 
-section {
+.container {
   max-width: 720px;
   margin: auto;
   padding: 0 24px;
@@ -197,7 +197,7 @@ section {
   gap: 1em;
 }
 
-section img {
+.container img {
   max-width: 100%;
 }
 
